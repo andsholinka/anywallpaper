@@ -82,6 +82,16 @@ export const wallpapers: Wallpaper[] = [
     accent: "#42e6ff"
   },
   {
+    id: "live-windows-update",
+    title: "Windows Update",
+    author: "Live",
+    category: "Live",
+    kind: "live",
+    component: "WindowsUpdate",
+    tags: ["windows", "update", "blue", "funny"],
+    accent: "#0078d4"
+  },
+  {
     id: "live-mono-waves",
     title: "Mono Waves",
     author: "Live",

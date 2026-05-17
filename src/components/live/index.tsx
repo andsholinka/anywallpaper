@@ -14,6 +14,7 @@ const SolarOrbit = dynamic(() => import("./SolarOrbit"), { ssr: false });
 const MonoWaves = dynamic(() => import("./MonoWaves"), { ssr: false });
 const MonoGrid = dynamic(() => import("./MonoGrid"), { ssr: false });
 const MonoInk = dynamic(() => import("./MonoInk"), { ssr: false });
+const WindowsUpdate = dynamic(() => import("./WindowsUpdate"), { ssr: false });
 
 export const LIVE_COMPONENTS: Record<string, React.ComponentType> = {
   MacClock,
@@ -27,7 +28,8 @@ export const LIVE_COMPONENTS: Record<string, React.ComponentType> = {
   SolarOrbit,
   MonoWaves,
   MonoGrid,
-  MonoInk
+  MonoInk,
+  WindowsUpdate
 };
 
 export function LiveWallpaper({ name }: { name: string }) {
